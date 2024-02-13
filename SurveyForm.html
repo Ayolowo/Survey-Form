@@ -11,6 +11,7 @@
       <p id="description">Please take some time to provide some feedback on your experience with the platform!</p>
       <form id="survey-form">
         <fieldset>
+          <!--Code below is to Request user input for name, email and age-->
           <label id="name-label">
           Name: <input id="name" type="text" placeholder="Please enter your name" required/>
           </label>
@@ -22,6 +23,7 @@
           <label id="number-label">
             Age (optional): <input type="number" id="number" min="0" max="120" placeholder="Please input your age" optional/>
 
+            <!--Adds a dropdown for user to pick from provided option-->
             <label id="dropdown-label">What option best describes your current role?
             <select id="dropdown">
               <option>Unemployed</option>
@@ -31,6 +33,8 @@
             </select>
             </label>
             <fieldset>
+              <!--A radio type element used to create clickable selections, must have the same "for" attribute to disable the
+              possibility of selecting two options-->
               <legend>Would you recommend this site to a friend?</legend>
               <label for="recommend">
               <input type="radio" name="recommend" class="inline" value="recommend"/>Yes</label>
