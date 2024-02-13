@@ -24,21 +24,23 @@
 
             <label id="dropdown-label">What option best describes your current role?
             <select id="dropdown">
-              <option>I am a beast</option>
-              <option>I am King</option>
+              <option>Unemployed</option>
+              <option>Software Engineer</option>
+              <option>Cloud Developer</option>
+              <option>Devops Engineer</option>
             </select>
             </label>
             <fieldset>
               <legend>Would you recommend this site to a friend?</legend>
-              <label for="recommend1">
-              <input type="radio" name="recommend1" class="inline" value="recommend1"/>Yes</label>
-              <label for="recommend2">
-                <input type="radio" name="recommend2" class="inline" value="recommend2" />No</label>
+              <label for="recommend">
+              <input type="radio" name="recommend" class="inline" value="recommend"/>Yes</label>
+              <label for="recommend">
+                <input type="radio" name="recommend" class="inline" value="recommend" />No</label>
 
             </fieldset>
-            <label>What would you like to see this site improved?
-              <input name="user-opinion" value="Yes" type="checkbox"/>Yes
-              <input name="user-opinion" value="No" type="checkbox"/>No
+            <label for="user">Would you like to see this site improved?
+              <input name="user-opinion" value="Yes" type="checkbox" id="user"/>Yes
+              <input name="user-opinion" value="No" type="checkbox" id="user"/>No
               </label>
             <label id="suggestion-label"></label>Any suggestions?
             <textarea id="Suggestions" rows="3" cols="30" placeholder="Drop your suggestions here"></textarea>
